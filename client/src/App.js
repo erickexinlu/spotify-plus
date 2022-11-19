@@ -15,8 +15,7 @@ function App() {
 
     if (refreshToken) {
       fetch(`/refresh_token?refresh_token=${refreshToken}`)
-        .then(res => console.log(res))
-        // .then(res => res.json())
+        .then(res => res.json())
         .then(data => console.log(data))
         .catch(err => console.error(err));
     }

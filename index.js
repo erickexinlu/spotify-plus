@@ -26,7 +26,6 @@ const generateRandomString = length => {
 const stateKey = 'spotify_auth_state';
 
 app.get('/login', (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8888'); 
 
     const state = generateRandomString(16);
     res.cookie(stateKey, state);

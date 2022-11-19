@@ -9,17 +9,6 @@ const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const REDIRECT_URI = process.env.REDIRECT_URI;
 
-console.log(CLIENT_ID);
-
-app.get('/', (req, res) => {
-    const data = {
-        name: 'Eric',
-        isAwesome: true
-    };
-
-    res.json(data);
-});
-
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string

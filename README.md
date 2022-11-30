@@ -2,13 +2,13 @@
 
 Spotify+ attempts to emulate most of the Spotify profile view's features while also adding additional functionalities that aren't available out-of-the-box like sorting playlists by audio features such as danceability and energy, as well as filtering your top artists and top tracks by time frame!
 
-<img src="./mainpageviewa.png" alt="main login demo">
+<img src="./readme_files/mainpageviewa.png" alt="main login demo">
 
-<img src="./mainpageviewb.png" alt="main login demo">
+<img src="./readme_files/mainpageviewb.png" alt="main login demo">
 
-<img src="./artistview.png" alt="artistview demo">
+<img src="./readme_files/artistview.png" alt="artistview demo">
 
-<img src="./audiofeaturesview.png" alt="audiofeatures demo">
+<img src="./readme_files/audiofeaturesview.png" alt="audiofeatures demo">
 
 Due to Spotify's recent changes to their API procedures, only users that are added to the app's authenticated users list will be able to see any data being displayed after logging in.
 

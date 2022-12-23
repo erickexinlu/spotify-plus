@@ -32,7 +32,3 @@ Due to Spotify's recent changes to their API procedures, only users that are add
 - using Styled Components to effectively style in React
 - preparing a project for deployment on Heroku
 - manipulating JSON objects
-
-# Attribution
-
-This project was done as part of Brittany Chiang's course on Newline, which you can check out yourself [here!](https://www.newline.co/courses/build-a-spotify-connected-app/welcome) 
